@@ -1,0 +1,52 @@
+.footer{
+    width: 100%;
+    height: auto;
+    border-top: 1px dotted gold;
+    margin: 10px auto;
+    padding: 10px;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    font-size: var(--M);
+}
+.footer_content ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer h2{
+    text-align: center;
+    border-bottom: 2px solid;
+    padding: 3px 0;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.footer_content ul li{
+    margin: 5px;
+}
+.footer_content ul li a{
+    color: gold;
+    padding: 4px 8px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* hover section */
+.footer .footer_content ul li a:hover{
+    background-color: var(--h-color);
+}
+/* copyright section */
+.copyright{
+    width: 100%;
+    margin: 10px auto;
+    padding: 5px 0;
+    border-top: dotted 1px gold;
+    text-align: center;
+    display: inline-block;
+}

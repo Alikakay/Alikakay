@@ -1,0 +1,42 @@
+/* import files */
+@import "header.css";
+@import "main_body.css";
+@import "table.css";
+@import "footer.css";
+@import "media_responsive.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 1px;
+    scroll-behavior: smooth
+}
+
+/* font face */
+@font-face{
+    font-family: openSans;
+    src: url(../fonts/OpenSans-Regular.ttf) format(ttf);
+}
+/* colors */
+:root{
+    --b-color: #333333;
+    --f-color: #c0c0c0;
+    --h-color: #1a1a1a;
+    --a-color: #292929;
+    --b-color: #333;
+}
+/* fonts size */
+:root{  
+    --S: 10px;
+    --SM: 15px;
+    --M: 20px;
+    --L: 30px;
+    --XL: 40px;
+}
+
+.active{
+    border-bottom: solid 2px gold;
+}

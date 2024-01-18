@@ -1,0 +1,39 @@
+.cv_container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 5px rgb(26, 26, 26);
+}
+table{
+    margin: 10px 0;
+    
+}
+.content table tr:nth-child(odd){
+    background-color: #292929;
+}
+table, th, td {
+    border: solid 1px var(--h-color);
+    border-collapse: collapse;
+}
+table th, td {
+    padding: 3px;
+    vertical-align: top; 
+}
+table th{
+    background-color: rgb(77, 77, 77);
+}
+
+/* resuma table */
+.resuma table th, td {
+    padding: 3px;
+    
+}
+
+/* media quere for print */
+/* @media print{
+    .resuma table{
+        width: 21cm;
+        height: 29cm;
+    }
+} */
